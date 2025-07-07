@@ -42,7 +42,7 @@ while (i < v ) {
 			q : ~~(R() * v), // target node on heart path
 			//D : R()>.5?1:-1,
 			D : i%2*2-1, // direction around heart path
-			F : R() * .1 + .7, // friction
+			F : R() * .1 + .6, // friction
 			//f : "rgba(" + ~~r + "," + ~~g + "," + ~~b + ",.1)"
 			f : "hsla("+~~H+","+~~S+"%,"+~~B+"%,.1)" // colour
       
